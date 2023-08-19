@@ -3,11 +3,79 @@
 <head>
     <title>UptimeZeus</title>
     <link rel="icon" href="images/favicon.ico">
+<!--    <base href="http://localhost:10000" target="_blank">-->
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Mohammad Safakhou">
+    <meta name="keywords" content="uptime, up, time, monitoring, testing, api">
+    <meta name="description" content="Monitoring api's and servers to keep up time minimum as possible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 <h1>Up Time Zeus</h1>
 
+<code>
+    x = 5;
+    y = 6;
+    z = x + y;
+</code>
+<article>
+    <header>
+        <h1>What Does WWF Do?</h1>
+        <p>WWF's mission:</p>
+    </header>
+    <p>WWF's mission is to stop the degradation of our planet's natural environment,
+        and build a future in which humans live in harmony with nature.</p>
+</article>
+
+<footer>
+    <p>Author: Hege Refsnes</p>
+    <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+<section>
+    <h1>WWF's Panda symbol</h1>
+    <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+
+<nav>
+    <a href="/html/">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/jquery/">jQuery</a>
+</nav>
+
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<aside style="float: right">
+    <h4>Epcot Center</h4>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<figure>
+    <img src="./images/numberOne.jpeg" alt="Trulli">
+    <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+</figure>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <h2 style="color: brown; text-align: center">Some tests will be run today on this section:</h2>
 <p style="color: aqua;" title="No tip today for you">Lets start creating our most precious project:</p>
 <hr>
@@ -28,7 +96,7 @@
 <p><a href="https://www.w3.org/" target="_blank">W3C</a></p>
 <p><a href="https://www.google.com/" target="_blank">Google</a></p>
 
-<h2>Relative URLs</h2>
+<h2 id="relativeUrls">Relative URLs</h2>
 <p><a href="html_images.asp" target="_blank">HTML Images</a></p>
 <p><a href="/css/default.asp" target="_blank">CSS Tutorial</a></p>
 
@@ -46,5 +114,22 @@
     <img src="./images/lets_do_it.jpg" alt="Origin">
 </picture>
 
+<br>
+
+<iframe name="iframe_main" id="youtube_id" width="800" title="youtube video" height="600"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1"
+        style="pointer-events: none;filter: blur(4px)">
+</iframe>
+
+<p><a onclick=showVideo('youtube_id')>Play Video</a></p>
+
+
 </body>
+<script>
+    function showVideo(c) {
+        let e = document.getElementById(c)
+        e.style.filter = "blur()";
+        e.style.pointerEvents = "auto";
+    }
+</script>
 </html>

@@ -19,3 +19,14 @@
 .glowing-border:focus {
 
 }
+
+.fixed-div-class {
+    flex: auto;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+
+.fixed-div-class-inner {
+    background-image: url("../images/numberOne.jpeg");
+}

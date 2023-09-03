@@ -1,0 +1,19 @@
+/* animation.css */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        color: #fff;
+    }
+    50% {
+        transform: scale(1.1);
+        color: #ff5722;
+    }
+    100% {
+        transform: scale(1);
+        color: #fff;
+    }
+}
+
+.animate {
+    animation: pulse 2s infinite;
+}
